@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Website.css">
+    <link rel="stylesheet" href="Nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dream State</title>
 </head>
-<body class="body">
-    <div class="container">
-        <div class="text-wrapper">
-            <div class="text-3 text">Dream State</div>
-            <div class="text-4 text">Dream State</div>
-            <div class="text-5 text">Dream State</div>
-            <div class="text-6 text">Dream State</div>
-            <div class="text-7 text">Dream State</div>
-            <div class="text-8 text">Dream State</div>
-            <div class="text-9 text">Dream State</div>
+
+<body>
+    <div class="intro-container">
+        <div class="intro-text-wrapper">
+            <div class="intro-text-1 text">Dream State</div>
+            <div class="intro-text-2 text">Dream State</div>
+            <div class="intro-text-3 text">Dream State</div>
+            <div class="intro-text-4 text">Dream State</div>
+            <div class="intro-text-5 text">Dream State</div>
+            <div class="intro-text-6 text">Dream State</div>
+            <div class="intro-text-7 text">Dream State</div>
         </div>
 
     </div>
 
-    <header class="header">
-        <div class="popup" id="popup-1">
+    <header>
+
+        <div class="popup" id="popup-h1">
             <div class="overlay"></div>
             <div class="content">
                 <div class="close-btn" onclick="togglePopup()">&times;</div>
                 <h1>Dream State</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deleniti cupiditate dolorem quidem minima itaque, commodi molestiae ea facere repellendus, officia totam asperiores numquam nobis expedita obcaecati non accusamus consectetur!</p>
+                <p>Manifesting your life in such a way that it starts feeling like a dream.
+                </p>
             </div>
         </div>
 
-        <button class="button1" onclick="togglePopup()">Dream State</button>
-   
+        <button id="button1" onclick="togglePopup()">dreamstate</button>
+
         <nav>
-            <div class="topnav" id="Topnav">
+            <div class="nav-position">
+                <div class="main-nav" id="Main-nav">
                     <a href="Website.html">Home</a>
+                    <a href="Vision.html">Vision</a>
                     <a href="News.html">News</a>
-                    <a href="Releases.html">Releases</a>
-                    
-                    <div class="dropdown">
-                        <button class="dropbtn">Artists
-                            <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                            <a href="Artist1.html">Artist 1</a>
-                            <a href="#">Artist 2</a>
-                            <a href="#">Artist 3</a>
-            </div>
-            </div>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a>Social medias might be added here once they are done</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                    <a href="Artists.html">Artists</a>
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="navToggle()">&#9776;</a>
+                </div>
             </div>
         </nav>
     </header>
-    <main>
-        <section>
-        <h2 class="section-title">To be added</h2>
-         </section>
-    </main>
+    <footer>
+        <div class="footer">
+            <div class="social-container">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                <a href="https://www.soundcloud.com/" class="fa fa-soundcloud"></a>
+                <a href="https://www.spotify.com/" class="fa fa-spotify"></a>
+            </div>
+
+            <div class="validators">
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <img style="border:none;height:31px;width:31px;text-decoration:none;"
+                        src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
+                        alt="Valid HTML" /></a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:none;width:88px;height:31px;text-decoration:none;"
+                        src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/css_logo_grayscale_31.png"
+                        alt="Valid CSS" /></a>
+            </div>
+        </div>
+
+    </footer>
     <script src="Website.js"></script>
 </body>
+
 </html>
