@@ -3,6 +3,7 @@ body {
     background-color: #121212;
     display: flex;
     padding-bottom: 2.5rem;
+    min-height:100vh;
     flex-direction: column;
     position: relative;
 }
