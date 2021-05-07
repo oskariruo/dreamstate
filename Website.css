@@ -23,7 +23,7 @@ body {
 
 .intro-text-wrapper {
 
-  color: white;
+  color: #FFFFFF;
   position: absolute;
   font-size: 100px;
   text-transform: uppercase;
@@ -174,7 +174,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  background: black;
+  background: #000000;
   color: #ddd;
   max-width: 450px;
   width: 100%;
@@ -206,7 +206,7 @@ body {
 
 .popup .close-btn:hover {
   color: #BB86FC;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .popup.active .overlay {
@@ -226,8 +226,8 @@ body {
   transform: translate(-50%, -50%);
   padding: 15px;
   font-size: 100px;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
   text-transform: uppercase;
   font-weight: 600;
   background-color: transparent;
@@ -264,7 +264,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    background: black;
+    background: #FFFFFF;
     color: #ddd;
     width: 350px;
     height: 250px;
