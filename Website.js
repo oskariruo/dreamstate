@@ -1,12 +1,12 @@
-function myFunction() {
-    var x = document.getElementById("Topnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+function navToggle() {
+  var x = document.getElementById("Main-nav");
+  if (x.className === "main-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "main-nav";
   }
+}
 
-  function togglePopup(){
-    document.getElementById("popup-1").classList.toggle("active");
-  }
+function togglePopup() {
+  document.getElementById("popup-h1").classList.toggle("active");
+}
