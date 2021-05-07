@@ -1,0 +1,175 @@
+.nav-position {
+  float: left;
+  width: 60vw;
+}
+
+.main-nav {
+  display: flex;
+  z-index: 0;
+}
+
+.main-nav a {
+  width: 220px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 14px;
+  font-size: 25px;
+  letter-spacing: 0.5em;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.main-nav .icon {
+  display: none;
+}
+
+.main-nav a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-decoration: line-through #BB86FC;
+}
+
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: auto;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.social-container a {
+  color: #FFFFFF;
+  padding: 14px 14px;
+  font-size: 30px;
+  text-decoration: none;
+  transition: font-size 0.25s;
+  width: 30px;
+  height: auto;
+}
+
+.social-container a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 35px;
+  width: 35px;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: auto;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+.social-container a {
+  color: #FFFFFF;
+  padding: 14px 14px;
+  font-size: 30px;
+  text-decoration: none;
+  transition: font-size 0.25s;
+  width: 30px;
+  height: auto;
+}
+
+.social-container a:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 35px;
+  width: 35px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+  .nav-position {
+    width: 100%;
+    float: none;
+  }
+
+  .main-nav {
+    display: block;
+    overflow: hidden;
+    position: sticky;
+    width: 100vw;
+    z-index: 2;
+
+  }
+
+  .main-nav a {
+    width: 100%;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 0.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+
+  .main-nav .icon {
+    background-color: transparent;
+    width: 30px;
+    left: 0;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    float: left;
+    display: block;
+  }
+
+  .main-nav .icon:hover {
+    text-decoration: none;
+
+  }
+
+  .main-nav a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: line-through purple;
+  }
+
+
+
+  .main-nav a {
+    display: none;
+
+  }
+
+  .main-nav a.icon {
+    float: left;
+    display: block;
+  }
+
+
+  .main-nav.responsive {
+    position: relative;
+  }
+
+  .main-nav.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .main-nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+
+  }
+}

@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    background-color: #121212;
+    position: relative;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-header {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    position: relative;
+    margin-top: 1em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.news-item {
+    margin: 10px;
+    width: 60%;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+
+}
+
+.news-post-title {
+    
+    text-align: left;
+    font-size: 2em;
+    color: #FFFFFF;
+    margin: 10px;
+
+}
+
+.news-post-info {
+    text-align: left;
+    color: #696969;
+    margin-left: 10px;
+}
+
+.news-post-p {
+    font-size: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 15px;
+    line-height: 1.25em;
+    letter-spacing: 0.075em;
+}
+
+.latest-hr {
+    max-width: 60%;
+    margin-top: 20px;
+}
+
+.latest-video {
+    max-width: 560px;
+    height: 315px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.events-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+}
+
+.events-left {
+    background-color: #BB86FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.date {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.month {
+    font-size: 16px;
+}
+
+.events-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+    font-size: 18px;
+    color: white;
+}
+
+.events-item {
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+
+}
+
+.events-location {
+    float: left;
+    margin: 24px 0 10px 0;
+}
+
+.tickets-a {
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+}
+
+.tickets-a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .news-item {
+        width: 80%;
+    }
+
+    .latest-header {
+        font-size: 40px;
+    }
+
+    .latest-hr {
+        max-width: 80%;
+    }
+
+    .events-container {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .latest-video {
+        max-width: 336px;
+        height: 189px;
+
+    }
+}

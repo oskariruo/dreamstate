@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+#artists-header {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 60px;
+    position: relative;
+    margin-top: 1em;
+}
+
+.artists-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 5px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.artists-grid-item {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    transition: 0.2s all ease-in-out;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.artist-grid-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.artist-grid-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.artists-grid-item:hover {
+    filter: invert(1);
+}
+
+.artist-grid-image:hover {
+    transform: scale(1.5);
+}
+
+
+@media (max-width: 1000px) {
+    #artists-header{
+        font-size: 40px;
+    }
+    .artists-grid-container {
+        grid-template-columns: auto;
+
+
+    }
+
+    .artists-grid-item {
+
+        height: 250px;
+        width: 200px;
+    }
+
+    .artist-grid-image-text {
+        font-size: 30px;
+    }
+}
