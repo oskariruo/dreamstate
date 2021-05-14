@@ -22,7 +22,6 @@ body {
 
 .artist-container {
     float: right;
-    align-items: right;
     width: 50%;
     height: 90vh;
     z-index: -10;
